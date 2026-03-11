@@ -1,19 +1,27 @@
-# Skills Pipeline
+# Skills
 
-A six-stage YouTube video production pipeline. Each stage is a Claude skill that takes the previous stage's output as input.
+Claude skills organized by project.
 
 ---
 
-## The Pipeline
+## YouTube/
 
-**1. Research Agent** → Scouts the topic. Runs web searches, classifies the content pillar, identifies signal sources, maps the competitive landscape, and produces a structured Research Brief.
+A six-stage YouTube video production pipeline. Each stage is a Claude skill that takes the previous stage's output as input.
 
-**2. Script Agent** → Takes the Research Brief and writes a full production-ready script. Includes hooks, segments, B-roll cues, chapter markers, and a brand voice check.
+**1. research-agent.md** → Scouts the topic. Runs web searches, classifies the content pillar, identifies signal sources, maps the competitive landscape, and produces a structured Research Brief.
 
-**3. SEO Agent** → Takes the script and/or research brief and generates the full YouTube metadata package: title options, description, chapter markers, tags, thumbnail text, and a Shorts clip recommendation.
+**2. script-agent.md** → Takes the Research Brief and writes a full production-ready script. Includes hooks, segments, B-roll cues, chapter markers, and a brand voice check.
 
-**4. Visual Director Agent** → Takes the script and produces a Visual Production Brief: scene-by-scene shot breakdowns, B-roll lists, screen recording instructions, graphics requirements, music direction, and color grading notes.
+**3. seo-agent.md** → Takes the script and/or research brief and generates the full YouTube metadata package: title options, description, chapter markers, tags, thumbnail text, and a Shorts clip recommendation.
 
-**5. Editor Brief Agent** → Synthesizes the script, visual brief, and SEO package into a complete, standalone editing guide covering timeline structure, cut instructions, audio, graphics, Shorts extraction, and export specs.
+**4. visual-director.md** → Takes the script and produces a Visual Production Brief: scene-by-scene shot breakdowns, B-roll lists, screen recording instructions, graphics requirements, music direction, and color grading notes.
 
-**6. Thumbnail Agent** → Runs last. Takes all prior outputs and produces a Thumbnail Creative Brief with three concept directions, a recommended concept, image generation prompts, production notes, and an A/B test recommendation if applicable.
+**5. editor-brief.md** → Synthesizes the script, visual brief, and SEO package into a complete, standalone editing guide covering timeline structure, cut instructions, audio, graphics, Shorts extraction, and export specs.
+
+**6. thumbnail-agent.md** → Runs last. Takes all prior outputs and produces a Thumbnail Creative Brief with three concept directions, a recommended concept, image generation prompts, production notes, and an A/B test recommendation if applicable.
+
+---
+
+## Obsidian/
+
+**PromptToGiveClaude.md** → Prompt for setting up Claude inside Obsidian.
