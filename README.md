@@ -24,4 +24,6 @@ A six-stage YouTube video production pipeline. Each stage is a Claude skill that
 
 ## Obsidian/
 
+**obsidian-power-user/SKILL.md** → Full-featured Obsidian expert skill. Covers vault design, note templates, canvas files, bases, Dataview queries, Templater templates, folder structures, core/community plugins, Obsidian Publish, Web Clipper, CSS snippets, URI links, and MOC notes. Loads reference files on demand for deep syntax details.
+
 **PromptToGiveClaude.md** → Prompt for setting up Claude inside Obsidian.
